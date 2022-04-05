@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Space Mono', monospace;
+}
+
+#titulo {
+
+}
+
+#menu {
+     display: inline-block;
+     list-style: none;
+     float: right;
+     margin-top:15px;
+}
+
+#menu li {
+     float:left;
+     /* border-right:1px solid #00000000; */
+}
+
+.link a{
+     padding: 10px 10px 20px 20px;
+     text-decoration: none;
+     color: rgb(0, 0, 0);
+
+}
