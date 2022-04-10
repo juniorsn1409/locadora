@@ -1,15 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Josefin+Sans:ital,wght@0,100;0,400;1,600&display=swap');
 
+/*
+     font-family: 'Berkshire Swash', cursive;
+
+     font-family: 'Josefin Sans', sans-serif; 
+     
+*/
 
 *{
      margin: 0;
      padding: 0;
      box-sizing: border-box;
-     font-family: 'Space Mono', monospace;
+     font-family: 'Josefin Sans', sans-serif; 
 }
 
-#titulo {
-
+header {
+     background-color: #555555;
+     padding-bottom: 20px;
 }
 
 #menu {
@@ -17,16 +24,66 @@
      list-style: none;
      float: right;
      margin-top:15px;
+     margin-right: 15px;
 }
 
 #menu li {
      float:left;
-     /* border-right:1px solid #00000000; */
+}
+
+#menu li :hover {
+     color: rgb(255, 255, 255);
+}
+
+#titulo {
+     color: white;
+     margin-left: 15px;
+     margin-top: 15px;
 }
 
 .link a{
      padding: 10px 10px 20px 20px;
      text-decoration: none;
      color: rgb(0, 0, 0);
+}
 
+#propaganda {
+   margin-top: 100px;
+     width: 100%;
+     height: 500px;
+     display: flex;
+}
+
+#propaganda .left{
+     margin-left: 25px;
+     margin-right: 20px;
+     width: 50%;
+     text-align: justify;
+     
+}
+
+#propaganda .left #title-propaganda {
+     font-family: 'Berkshire Swash', cursive;
+     color: rgb(86, 71, 71)
+}
+
+#propaganda .left button {
+     text-align: center;
+     padding: 10px;
+     color: rgb(255, 255, 255);
+     background-color: rgb(128, 128, 128);
+     border-radius: 5%;
+     border: 0px;
+}
+
+#propaganda .left button:hover {
+
+     background-color: rgb(59, 59, 59);
+     border-radius: 5%;
+   
+}
+
+#propaganda .rigth{
+     margin-right: 25px;
+     width: 50%;    
 }
